@@ -1,7 +1,7 @@
 import qualidade from './assets/qualidade.svg';
 import foco from './assets/foco.svg';
-import inova from './assets/inova.svg';
-import aprendizado from './assets/melhorac.svg';
+import inova from './assets/inovação.svg';
+import aprendizado from './assets/aprendizado.svg';
 
 import menu1 from './assets/01.jpg';
 import menu2 from './assets/02.jpg';
@@ -63,6 +63,7 @@ export const features = [
     title: 'Foco no cliente',
     description:
       'Colocamos nossos clientes no centro de tudo o que fazemos. Ouvimos atentamente suas necessidades, compreendemos seus desafios e nos esforçamos para superar suas expectativas.',
+    cla: "icone-atendimento-ao-cliente",
   },
   {
     id: 3,

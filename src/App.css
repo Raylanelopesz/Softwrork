@@ -13,13 +13,13 @@
    * Colors
   ===============*/
 
-  --first-color: #2546dafa;
+  --first-color: #0a9ee3;
   --first-color-light: hsl(0, 0%, 37%);
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 67%);
   --bg-color: hsl(0, 0%, 8%);
-  --container-color: hsl(0, 0%, 6%);
-  --hsla: hsl(0, 0%, 0%, 0.75);
+  --container-color: #0c0c0c;
+  --hsla: rgba(0, 0, 0, 0.75);
 
   /*===============
    * Typography

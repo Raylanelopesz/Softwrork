@@ -104,9 +104,15 @@
 }
 
 .button {
-    background-color: transparent;
-    border-color: var(--first-color);
-    border-top-width: 2px;
+    background-color: var(--first-color);
     border-radius: 20px;
     width: 200px;
+    height: 60px;
+    color: var(--title-color);
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--first-color);
+
 }

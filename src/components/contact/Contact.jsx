@@ -86,7 +86,6 @@ function Contact() {
 
 
                     <button className="button">
-                        Enviar Mensagem
                         <span className="button__icon contact__button-icon">
                             <FiSend />
                         </span>

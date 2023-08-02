@@ -21,6 +21,7 @@
 }
 
 .feature__img {
+    color: #0a9ec7;
     height: 200px;
     width: 200px;
     object-fit: contain;
@@ -47,4 +48,8 @@
 
 .features__item:hover {
     transform: translateY(-0.5rem)
+}
+
+.icone-atendimento-ao-cliente {
+    width: 300px;
 }
