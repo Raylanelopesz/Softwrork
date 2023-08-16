@@ -130,7 +130,10 @@ img {
   color: var(--title-color);
   background: var(--first-color);
   border: 2px solid var(--first-color);
-  padding: 1rem 1.5rem
+  padding: 1rem 1.5rem;
+  width: 30%;
+  align-items: center;
+  text-align: center;
 }
 
 .btn:hover {

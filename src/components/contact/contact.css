@@ -1,5 +1,13 @@
 .contact__container {
-    grid-template-columns: 4fr 8fr;
+    grid-template-columns: 8fr 8fr;
+    align-items: center;
+    padding: 100px;
+
+}
+
+
+#touch {
+    color: var(--first-color);
 }
 
 .contact__title {
@@ -114,5 +122,10 @@
 .button:hover {
     background-color: transparent;
     color: var(--first-color);
+
+}
+
+.contact {
+    background-color: #000000;
 
 }
