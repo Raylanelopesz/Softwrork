@@ -1,4 +1,3 @@
-import React from 'react'
 import './features.css'
 import { features } from '../../Data';
 import shape from '../../assets/shape2.png';
