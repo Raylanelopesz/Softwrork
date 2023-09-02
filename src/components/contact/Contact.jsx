@@ -23,23 +23,26 @@ function Contact() {
       message,
       email,
     };
-    console.log('🚀 ~ enviarEmail ~ templateParams=>', props);
 
-    //   emailJs
-    //     .send(
-    //       'service_3aovog5',
-    //       'template_m2pb3gd',
-    //       templateParams,
-    //       'miD4TwRYkGFW_JKuH'
-    //     )
-    //     .then((response) => {
-    //       console.log('Email enviado', response.status, response.text);
-    //     }).catch((err) => {console.error(err)});
+    emailJs
+      .send(
+        'service_3aovog5',
+        'template_m2pb3gd',
+        templateParams,
+        'miD4TwRYkGFW_JKuH'
+      )
+      .then((response) => {
+        console.log('Email enviado', response.status, response.text);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   }
+
   return (
-    <section className='contact section'>
-      <h2 className='section__title'>
-        Get In <span>Touch</span>
+    <section className='contact section' id='contact-section'>
+      <h2 className='section__title' data-title='Contatos'>
+        {/* Get In <span id='touch'>Touch</span> */}
       </h2>
 
       <div className='contact__container container grid'>
@@ -55,19 +58,21 @@ function Contact() {
               <div className='info__item'>
                 <FaEnvelopeOpen className='info__icon' />
                 <div>
-                  <span className='info__title'>Mail me</span>
-                  <h4 className='info__desc'>lays.silva@software.com.br</h4>
+                  <span className='info__title'>Email</span>
+                  <h4 className='info__desc'>contato@softworksolutions</h4>
                 </div>
               </div>
 
               <div className='info__item'>
                 <FaPhoneSquareAlt className='info__icon' />
                 <div>
-                  <span className='info__title'>Call me</span>
+                  <span className='info__title'>Contato</span>
                   <h4 className='info__desc'>(11) 96170-2406</h4>
                 </div>
               </div>
-              <div className='contact__socials'>
+{/* Ainda não temos redes sociais */}
+
+              {/* <div className='contact__socials'>
                 <a href='https' className='contact__social-link'>
                   <FaLinkedinIn />
                 </a>
@@ -83,7 +88,7 @@ function Contact() {
                 <a href='https' className='contact__social-link'>
                   <FaEnvelope />
                 </a>
-              </div>
+              </div> */}
             </div>
           </h3>
         </div>
@@ -110,7 +115,7 @@ function Contact() {
               />
             </div>
 
-            <div className='form__input-div'>
+            {/* <div className='form__input-div'>
               <input
                 type='text'
                 placeholder='Assunto'
@@ -118,13 +123,15 @@ function Contact() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
-            </div>
+            </div> */}
           </div>
 
           <div className='form__input-div'>
             <textarea
               placeholder='Sua mensagem'
               className='form__control textarea'
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             ></textarea>
           </div>
 

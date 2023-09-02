@@ -4,7 +4,7 @@ import shape from '../../assets/shape2.png';
 function Features() {
 
     return (
-        <section className='features section' id=" features">
+        <section className='features section' id="features-section">
             <h2 className="section__title" data-title="Features">
                 Nossos Valores!
             </h2>

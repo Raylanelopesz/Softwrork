@@ -1,7 +1,21 @@
+import {
+  FaHome,
+  FaUser,
+  FaFolderOpen,
+  FaEnvelopeOpen,
+  FaBriefcase,
+  FaGraduationCap,
+  FaCode,
+} from 'react-icons/fa';
+import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+
+
+
 import qualidade from './assets/qualidade.svg';
 import foco from './assets/foco.png';
 import inova from './assets/inovação.svg';
 import aprendizado from './assets/aprendizado.svg';
+
 
 import menu1 from './assets/01.jpg';
 import menu2 from './assets/02.jpg';
@@ -29,25 +43,26 @@ import testimonial4 from './assets/testimonial-4.jpg';
 export const links = [
   {
     name: 'Quem Somos?',
-    path: 'Quem Somos?',
+    path: '#about-section',
+  },
+  {
+    name: 'Nossos Valores',
+    path: '#features-section',
   },
   {
     name: 'Serviços',
-    path: 'Serviços',
+    path: '#services-section',
   },
   {
     name: 'Contatos',
-    path: 'Contatos',
-  },
-  {
-    name: 'Sei lá',
-    path: 'Sei lá',
+    path: '#contact-section',
   },
 
 
 
 
 ];
+
 
 export const features = [
   {

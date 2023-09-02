@@ -13,7 +13,7 @@ function Home() {
                         </p>
                     </span>
                     <div className="home__btns">
-                        <a href="Orcamento" className="btn">
+                        <a href="#contact-section" className="btn">
                             Faça seu Orçamento
                         </a>
                         <a href="Não Sei" className="btn home__btn">
