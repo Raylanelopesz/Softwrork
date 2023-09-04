@@ -1,7 +1,11 @@
+.about {
+    padding-bottom: 0;
+}
+
 .about__grid {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: rem;
+    gap: 3rem;
 }
 
 .about__img-wrapper {

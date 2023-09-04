@@ -28,9 +28,9 @@
   --body-font: 'kanit', sans-serif;
   --second-font: 'Lobster Two', cursive;
 
-  --biggest-font-size: 4.300rem;
-  --bigger-font-size: 3.125rem;
-  --big-font-size: 2.5rem;
+  --biggest-font-size: clamp(2rem, 1.125rem + 4vw, 4.125rem);
+  --bigger-font-size: clamp(1.875rem, 1.3603rem + 2.3529vw, 3.125rem);
+  --big-font-size: clamp(1.75rem, 1.4412rem + 1.4118vw, 2.5rem);
   --h1-font-size: 1.875rem;
   --h2-font-size: 1.75rem;
   --h3-font-size: 1.5rem;
@@ -175,4 +175,52 @@ about__details-description {
 .title-left {
   text-align: left;
   margin-bottom: 1rem;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
+  }
+}
+
+@media screen and (max-width: 576px) {}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }

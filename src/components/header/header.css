@@ -4,18 +4,20 @@
     top: 0;
     width: 100%;
     z-index: 100;
+
 }
 
 .nav {
     height: calc(var(--header-height)+ 1.5rem);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .nav__logo-img {
-    width: 197px;
+    width: 190px;
+    cursor: pointer;
 }
 
 .nav__list {
@@ -26,6 +28,7 @@
 .nav__link,
 .nav__toggle {
     color: var(--title-color);
+    cursor: pointer;
 }
 
 nav.nav__link {
@@ -36,4 +39,34 @@ nav.nav__link {
 .nav__toggle {
     font-size: var(--h2-font-size);
     display: none;
+}
+
+/*===============
+   * Scroll Header
+  ===============*/
+
+.scroll-header {
+    position: fixed;
+    background-color: var(--container-color);
+    animation: slide-down 0.7s;
+
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+/*===============
+   * Active Link
+  ===============*/
+
+.active,
+.nav__link:hover {
+    color: var(--first-color) !important;
 }
