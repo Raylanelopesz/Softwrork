@@ -58,9 +58,3 @@
     border-radius: 15px;
 
 }
-
-.home__btn:hover {
-    background-color: transparent;
-    color: var(--first-color);
-
-}

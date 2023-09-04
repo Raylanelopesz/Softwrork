@@ -137,8 +137,8 @@ img {
 }
 
 .btn:hover {
-  background-color: transparent;
-  color: var(--first-color);
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .section {

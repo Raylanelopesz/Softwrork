@@ -12,7 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 
 import qualidade from './assets/qualidade.svg';
-import foco from './assets/foco.svg';
+import foco from './assets/foco.png';
 import inova from './assets/inovação.svg';
 import aprendizado from './assets/aprendizado.svg';
 
@@ -43,19 +43,19 @@ import testimonial4 from './assets/testimonial-4.jpg';
 export const links = [
   {
     name: 'Quem Somos?',
-    path: 'Quem Somos?',
+    path: '#about-section',
   },
   {
     name: 'Nossos Valores',
-    path: 'Nossos Valores',
+    path: '#features-section',
   },
   {
     name: 'Serviços',
-    path: 'Serviços',
+    path: '#services-section',
   },
   {
     name: 'Contatos',
-    path: 'Contatos',
+    path: '#contact-section',
   },
 
 
@@ -73,12 +73,12 @@ export const features = [
       'Buscamos a excelência em tudo o que fazemos. Nosso foco é fornecer soluções de alta qualidade, desenvolver software confiável e entregar resultados excepcionais aos nossos clientes',
   },
   {
+    cla: "icone-atendimento-ao-cliente",
     id: 2,
     img: foco,
     title: 'Foco no cliente',
     description:
       'Colocamos nossos clientes no centro de tudo o que fazemos. Ouvimos atentamente suas necessidades, compreendemos seus desafios e nos esforçamos para superar suas expectativas.',
-    cla: "icone-atendimento-ao-cliente",
   },
   {
     id: 3,

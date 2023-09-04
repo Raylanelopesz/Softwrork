@@ -72,7 +72,7 @@
 
 .form__input-group {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
 }
 
@@ -120,9 +120,8 @@
 }
 
 .button:hover {
-    background-color: transparent;
-    color: var(--first-color);
-
+    opacity: 0.8    ;
+    cursor: pointer;
 }
 
 .contact {

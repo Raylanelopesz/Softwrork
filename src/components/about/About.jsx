@@ -7,7 +7,7 @@ import { FiCheck } from "react-icons/fi"
 function About() {
 
     return (
-        <section className="about section" id="about">
+        <section className="about section" id="about-section">
             <div className="about__grid container grid">
                 <div className="about__img-wrapper">
                     <img src={aboutImg} alt="" className="about__img" />
@@ -45,7 +45,7 @@ function About() {
                         </p>
                     </div>
 
-                    <a href="#team" className="btn">Nosso Time</a>
+                    {/* <a href="#team" className="btn">Nosso Time</a> */}
                 </div>
             </div>
         </section>
